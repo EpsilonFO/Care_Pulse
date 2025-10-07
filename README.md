@@ -1,4 +1,4 @@
-# DoctoGreed - AI-Powered Cardiology Assistant
+# Care Pulse - AI-Powered Cardiology Assistant
 
 An intelligent medical platform designed to optimize cardiology consultations through AI-driven patient pre-evaluation, automated medical reporting, and post-consultation follow-up.
 
@@ -12,7 +12,7 @@ The cardiology field faces critical challenges:
 - **Limited post-consultation follow-up** and patient monitoring
 
 ### The Solution
-DoctoGreed addresses these challenges by providing:
+Care Pulse addresses these challenges by providing:
 - **Pre-consultation assessment** - AI-powered questionnaire to gather patient symptoms and medical history
 - **Intelligent patient triage** - Automatic risk assessment using the Kansas City Cardiomyopathy Questionnaire (KCCQ)
 - **Structured medical reports** - Automated generation of comprehensive patient summaries
@@ -66,8 +66,8 @@ The application uses a microservices architecture orchestrated with Docker Compo
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-account/doctogreed-hackathon.git
-cd doctogreed-hackathon
+git clone https://github.com/EpsilonFO/Care_Pulse.git
+cd Care_Pulse
 ```
 
 2. **Configure environment variables**
@@ -171,7 +171,7 @@ Once running, access the interactive API documentation:
 ## 📁 Project Structure
 
 ```
-doctogreed-hackathon/
+Care_Pulse/
 ├── docker-compose.yaml       # Docker orchestration
 ├── .env                      # Environment variables (create this)
 ├── .envexemple              # Example environment file
